@@ -7,7 +7,8 @@ public class Circulo extends FormaGeometrica {
 
     // Construtor, getters e setters omitidos
 
-    public double calcularArea() {
+    public double AreaCalculada(){
         return Math.PI * raio * raio;
     }
+
 }

@@ -1,6 +1,6 @@
 package br.unipe.boaspraticas.exercicios.solid.lsp.pessoas;
 
-class Pessoa {
+public class Pessoa {
     private String nome;
 
     public Pessoa(String nome) {
@@ -11,7 +11,4 @@ class Pessoa {
         return nome;
     }
 
-    public void fazerSom() {
-        System.out.println("Oi!");
-    }
 }

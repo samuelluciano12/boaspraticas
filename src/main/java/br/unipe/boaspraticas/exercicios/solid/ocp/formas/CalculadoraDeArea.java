@@ -10,11 +10,7 @@ public class CalculadoraDeArea {
     public double calcularAreaTotal(FormaGeometrica[] formas) {
         double areaTotal = 0;
         for (FormaGeometrica forma : formas) {
-            if (forma instanceof Retangulo) {
-                areaTotal += ((Retangulo) forma).calcularArea();
-            } else if (forma instanceof Circulo) {
-                areaTotal += ((Circulo) forma).calcularArea();
-            }
+            areaTotal += (forma).AreaCalculada();
         }
         return areaTotal;
     }

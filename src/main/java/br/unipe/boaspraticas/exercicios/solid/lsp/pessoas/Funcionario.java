@@ -1,6 +1,6 @@
 package br.unipe.boaspraticas.exercicios.solid.lsp.pessoas;
 
-class Funcionario extends Pessoa {
+public class Funcionario extends Pessoa implements FazerSom {
     private double salario;
 
     public Funcionario(String nome, double salario) {
@@ -13,9 +13,9 @@ class Funcionario extends Pessoa {
     }
 
     // Sobrescrevendo o método fazerSom() na classe Funcionario
-    @Override
-    public void fazerSom() {
-        System.out.println("Bom dia!");
+
+    public void som(String texto) {
+
     }
 
     // Método específico da classe Funcionario

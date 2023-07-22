@@ -11,12 +11,12 @@ package br.unipe.boaspraticas.exercicios.solid.sip.trabalhadores;
 // vazias em algumas classes, o que não é ideal.
 class Programa {
     public static void main(String[] args) {
-        Trabalhador gerente = new Gerente();
-        gerente.trabalharEmTempoIntegral();
+        TrabalhoTemporario gerente = new Gerente();
+
         gerente.fazerTrabalhoTemporario();
 
-        Trabalhador estagiario = new Estagiario();
+        TrabalhoIntegral estagiario = new Estagiario();
         estagiario.trabalharEmTempoIntegral();
-        estagiario.fazerTrabalhoTemporario();
+
     }
 }

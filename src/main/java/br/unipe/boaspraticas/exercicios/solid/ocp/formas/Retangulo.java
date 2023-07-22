@@ -7,8 +7,8 @@ public class Retangulo extends FormaGeometrica {
     private double largura;
 
     // Construtor, getters e setters omitidos
-
-    public double calcularArea() {
+    public double AreaCalculada(){
         return altura * largura;
     }
+
 }

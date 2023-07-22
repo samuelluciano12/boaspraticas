@@ -1,9 +1,11 @@
 package br.unipe.boaspraticas.exercicios.solid.lsp.formas;
 
-class Rectangle extends Shape {
+class Rectangle extends Shape implements Formas{
     private int width;
     private int height;
+    public void getArea(double width,double height) {
 
+    }
     public void setWidth(int width) {
         this.width = width;
     }
@@ -12,12 +14,10 @@ class Rectangle extends Shape {
         this.height = height;
     }
 
-    @Override
+
     public void draw() {
         // Desenhar um retângulo
     }
 
-    public int getArea() {
-        return width * height;
-    }
+
 }
